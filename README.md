@@ -41,18 +41,18 @@ Dondurulmuş parametre sayısı: 39,130 (152.85 KB)
 
 ## 📉 Test Sonuçları
 
-Kayıp: 0.0797
+Kayıp: 0.0797  
 Doğruluk: 0.9756
 
 ## 🧪 Örnek Tahminler
 
-Yemekler çok lezzetliydi, tekrar geleceğim.  =>  olumsuz
-Servis çok yavaştı, memnun kalmadım.  =>  olumsuz
-Mekan çok güzel ve temizdi.  =>  olumlu
-Tatlılar bayattı, hiç beğenmedim.  =>  olumsuz
-Garsonlar çok ilgisizdi, bir daha gelmem.  =>  olumlu
-Fiyatlar çok yüksekti ama yemekler güzeldi.  =>  olumlu
-Yemekler fena değildi, ortalama bir deneyimdi.  =>  normal
+Yemekler çok lezzetliydi, tekrar geleceğim.  ==>  olumsuz  
+Servis çok yavaştı, memnun kalmadım.  ==>  olumsuz  
+Mekan çok güzel ve temizdi.  ==>  olumlu  
+Tatlılar bayattı, hiç beğenmedim.  ==>  olumsuz  
+Garsonlar çok ilgisizdi, bir daha gelmem.  ==>  olumlu  
+Fiyatlar çok yüksekti ama yemekler güzeldi.  ==>  olumlu  
+Yemekler fena değildi, ortalama bir deneyimdi.  ==>  normal  
 
 ## 📌 Notlar
 
