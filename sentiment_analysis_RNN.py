@@ -5,9 +5,6 @@ Duygu analizi --> Bir cümlenin olumlu mu olumsuz mu olduğunu belirleme
 Restorant yorumları değerlendirmesi
 """
 
-# Konsolda uyarı ve bilgilendirme mesajlarını kapat
-#import os
-#os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  ## TF Log: 0=Tümü, 1=Uyarı+Hata, 2=Hata, 3=Hiçbirini gösterir
 
 # Kütüphanleri içeri aktar
 import numpy as np
