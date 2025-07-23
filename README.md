@@ -36,7 +36,8 @@ _________________________________________________________________
 =================================================================
 Toplam parametre sayısı: 43,268 (169.02 KB)  
 Eğitilebilir parametre sayısı: 4,138 (16.16 KB)
-Dondurulmuş parametre sayısı: 39,130 (152.85 KB)```
+Dondurulmuş parametre sayısı: 39,130 (152.85 KB)
+```
 
 ## 📉 Test Sonuçları
 
