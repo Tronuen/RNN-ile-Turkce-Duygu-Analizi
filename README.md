@@ -18,7 +18,7 @@ Veri kümesi 200 adet Türkçe restoran yorumu içermektedir. Her yorum, aşağ�
 - `olumsuz`
 - `normal`
 
-Eğitim amaçlı 200 adet veri kullanılmıştır. İsteğe göre veri sayısı veriseti.json dosyası içinde çoğaltılabilir.
+Eğitim amaçlı 200 adet veri kullanılmıştır. İsteğe göre veri sayısı `veriseti.json` dosyası içinde çoğaltılabilir.
 
 ## 🧱 Model Mimarisi
 
@@ -29,14 +29,14 @@ Model: "sequential"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- embedding (Embedding)       (None, 559, 70)            9030      
+ embedding (Embedding)       (None, 11, 70)            39130      
  simple_rnn (SimpleRNN)      (None, 33)                3432      
  dense (Dense)               (None, 19)                646       
  dense_1 (Dense)             (None, 3)                 60        
 =================================================================
-Toplam parametre sayısı: 39,130 (152.85 KB)  
-Eğitilebilir parametre sayısı: 0 (0.00 B) 
-Dondurulmuş parametre sayısı: 39,130 (152.85 KB)
+Toplam parametre sayısı: 43,268 (169.02 KB)  
+Eğitilebilir parametre sayısı: 4,138 (16.16 KB)
+Dondurulmuş parametre sayısı: 39,130 (152.85 KB)```
 
 ## 📉 Test Sonuçları
 
@@ -52,3 +52,10 @@ Tatlılar bayattı, hiç beğenmedim.  =>  olumsuz
 Garsonlar çok ilgisizdi, bir daha gelmem.  =>  olumlu
 Fiyatlar çok yüksekti ama yemekler güzeldi.  =>  olumlu
 Yemekler fena değildi, ortalama bir deneyimdi.  =>  normal
+
+## 📌 Notlar
+
+- Bu proje eğitim amacıyla hazırlanmıştır.
+- Veri seti manuel olarak oluşturulmuş olup sınırlı sayıda örnek içermektedir.
+- Geliştirmek için daha büyük bir veri kümesi ve farklı modeller denenebilir (LSTM, GRU, Transformer tabanlı modeller gibi).
+
